@@ -1,3 +1,5 @@
+import math
+
 # name = input("What is your name? ")
 # age = int(input("What is your age? "))
 
@@ -33,3 +35,11 @@ elif high_income or good_credit:
     print("You are eligible for a loan under circumstances")
 else:
     print("You are not eligible for a loan.")
+
+weight = int(input("Weight: "))
+unit = input("(L)bs or (K)gs: ").upper()
+
+if unit == "K":
+    print("You weigh " + str(math.trunc(weight * 2.2)) + " Lbs.")
+else:
+    print("You weigh " + str(math.trunc(weight * 0.45)) + " Kgs.")
