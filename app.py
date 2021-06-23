@@ -26,15 +26,15 @@ import math
 # print("Your down payment will be " + down_payment)
 
 
-high_income = False
-good_credit = False
+# high_income = False
+# good_credit = False
 
-if high_income and good_credit:
-    print("You are eligible for a loan with a good rate.")
-elif high_income or good_credit:
-    print("You are eligible for a loan under circumstances")
-else:
-    print("You are not eligible for a loan.")
+# if high_income and good_credit:
+#     print("You are eligible for a loan with a good rate.")
+# elif high_income or good_credit:
+#     print("You are eligible for a loan under circumstances")
+# else:
+#     print("You are not eligible for a loan.")
 
 weight = int(input("Weight: "))
 unit = input("(L)bs or (K)gs: ").upper()
