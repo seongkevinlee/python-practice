@@ -2,9 +2,12 @@
 #     for y in range(3):
 #         print(f"({x}, {y})")
 
-numbers = [5, 2, 5, 2, 2]
+numbers = [5, 5, 5, 5, 5]
 for x_count in numbers:
     output = ""
     for count in range(x_count):
-        output += "x"
+        if count == 2:
+            output += " "
+        else:
+            output += "x"
     print(output)
