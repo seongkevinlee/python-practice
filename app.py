@@ -37,7 +37,7 @@ import math
 #     print("You are not eligible for a loan.")
 
 
-# WEIGHT CONVERTER EXERCISE
+#! WEIGHT CONVERTER EXERCISE
 # weight = int(input("Weight: "))
 # unit = input("(L)bs or (K)gs: ").upper()
 
@@ -47,7 +47,7 @@ import math
 #     print("You weigh " + str(math.trunc(weight * 0.45)) + " Kgs.")
 
 
-# WHILE LOOPS
+#! WHILE LOOPS
 # i = 1
 # while i <= 5:
 #     print('*' * i)
@@ -66,29 +66,42 @@ import math
 # else:
 #     print("You lose!")
 
-command = ""
-started = False
-while True:
-    command = input("> ").lower()
-    if command == "start":
-        if started:
-            print("Car is already on!")
-        else:
-            started = True
-            print("Car started...")
-    elif command == "stop":
-        if not started:
-            print("Car is already stopped!")
-        else:
-            started = False
-            print("Car stopped.")
-    elif command == "help":
-        print("""
-start - to start the car
-stop - to stop the car
-quit - to quit
-        """)
-    elif command == "quit":
-        break
-    else:
-        print("Sorry, unrecognized command.")
+
+#!CAR GAME
+# command = ""
+# started = False
+# while True:
+#     command = input("> ").lower()
+#     if command == "start":
+#         if started:
+#             print("Car is already on!")
+#         else:
+#             started = True
+#             print("Car started...")
+#     elif command == "stop":
+#         if not started:
+#             print("Car is already stopped!")
+#         else:
+#             started = False
+#             print("Car stopped.")
+#     elif command == "help":
+#         print("""
+# start - to start the car
+# stop - to stop the car
+# quit - to quit
+#         """)
+#     elif command == "quit":
+#         break
+#     else:
+#         print("Sorry, unrecognized command.")
+
+#!FOR LOOPS
+for item in range(5, 10, 2):
+    print(item)
+
+# CALCULATE TOTAL COST OF ALL ITEMS IN A SHOPPING CARD
+prices = [10, 20, 30]
+total = 0
+for price in prices:
+    total += price
+print(f"Total: {total}")
