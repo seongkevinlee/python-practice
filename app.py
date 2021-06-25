@@ -99,9 +99,9 @@ import math
 # for item in range(5, 10, 2):
 #     print(item)
 
-#? CALCULATE TOTAL COST OF ALL ITEMS IN A SHOPPING CARD
-# prices = [10, 20, 30]
-# total = 0
-# for price in prices:
-#     total += price
-# print(f"Total: {total}")
+# ? CALCULATE TOTAL COST OF ALL ITEMS IN A SHOPPING CARD
+prices = [10, 20, 30]
+total = 0
+for price in prices:
+    total += price
+print(f"Total: {total}")
