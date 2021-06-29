@@ -25,19 +25,19 @@
 #         print(item)
 
 #! LIST METHODS
-numbers = [5, 2, 1, 7, 4]
-numbers.append(20)
-print(numbers)
+numbers = [5, 2, 1, 7, 5, 4, 5]
+# numbers.append(20)
+# print(numbers)
 
-numbers.insert(0, 21)
-print(numbers)
-numbers.insert(3, 5000)
-print(numbers)
+# numbers.insert(0, 21)
+# print(numbers)
+# numbers.insert(3, 5000)
+# print(numbers)
 
-numbers.remove(5000)
-print(numbers)
-numbers.remove(21)
-print(numbers)
+# numbers.remove(5000)
+# print(numbers)
+# numbers.remove(21)
+# print(numbers)
 
 # ? CLEAR ALL VALUES IN ARRAY
 # numbers.clear()
@@ -52,3 +52,15 @@ print(numbers.index(7))
 
 print(1 in numbers)
 print(155 in numbers)
+
+print(numbers.count(5))
+
+numbers.sort()
+print(numbers)
+numbers.reverse()
+print(numbers)
+
+numbers2 = numbers.copy()
+numbers2.reverse()
+print("numbers: " + str(numbers))
+print("numbers2: " + str(numbers2))
