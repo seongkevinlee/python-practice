@@ -64,3 +64,11 @@ numbers2 = numbers.copy()
 numbers2.reverse()
 print("numbers: " + str(numbers))
 print("numbers2: " + str(numbers2))
+
+#!WRITE A PROGRAM TO REMOVE DUPLICATES IN A LIST
+list = [1, 2, 3, 4, 4, 6, 6, 8, 9, 20]
+uniques = []
+for number in list:
+    if number not in uniques:
+        uniques.append(number)
+print(uniques)
