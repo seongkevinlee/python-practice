@@ -11,3 +11,5 @@ for x_count in numbers:
         else:
             output += "x"
     print(output)
+
+    
