@@ -4,4 +4,6 @@
 * nested loops
 * tuples
 * dictionaries
-* more things
+* functions
+* arguments
+* key parameters
